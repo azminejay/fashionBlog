@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Becca</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Nanum+Myeongjo&family=Noto+Serif+Display:ital,wght@0,400;1,300&family=Quicksand&family=Smooch+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/63e27d1860.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  <!-- Nav Bar -->
+  <div id="altered-header">
+    <ul class="altered-links">
+      <li class="nav-item"><a href="#footer">Contact</a></li>
+      <li class="nav-item"><a href="#">Pricing</a></li>
+      <li class="nav-item"><a href="#cta-buttons">Download</a></li>
+    </ul>
+  </div>
+  <div class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+
+  <!-- Homepage -->
+  <h3 class="altered-homepage">BECCA DESIGNS</h3>
+
+  <div class="under-homepage">
+    <h1 class="company-title">NEW-AGE LUXURY</h1>
+
+    <div class="fu">
+      <p span class="altered-mission">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna etiam tempor orci eu lobortis elementum nibh. Laoreet suspendisse interdum consectetur libero id. At urna condimentum mattis pellentesque.
+      </p>
+      <img src="images/tulle.png" class="homepage-photo" alt="tulle-dress">
+    </div>
+  </div>
+  
+  <!-- MAIN QUOTE-->
+  <div class="fu2">
+    <h1 class="quote">"OUR DESIGNS ARE MADE TO TELL A STORY, SO YOU CAN TELL YOURS."</h1>
+    <h6 class="quote-author">-Marc Jacobs</h6>
+  </div>
+
+  <!-- Catalog -->
+  <div class="dress-catalog">
+    <div class="dress-picture">
+      <img id="dress1" src="images/bodycon.jpeg" class="bodycon-dress" alt="bodycon-dress1"/>
+      <p>JANELLE BODYCON</p>
+    </div>
+    <div class="dress-picture">
+      <img id="dress2" src="images/sweetheartNeckline.jpeg" class="bodycon-dress" alt="bodycon-dress2"/>
+      <p>CASSIDY MINIDRESS</p>
+    </div>
+    <div class="dress-picture">
+      <img id="dress3" src="images/aLine.jpeg" class="bodycon-dress" alt="bodycon-dress3"/>
+      <p>LINDSEY DRESS</p>
+    </div>
+  </div>
+
+  <!--The SC Edit -->
+  <div class="testing">
+    <h1 class="second-section-title">The SC Edit</h1>
+
+    <div class="main-backstage">
+      <div class="backstage-catalog">
+        <div class="backstage-image">
+          <img id="dressa" onmouseover="clicked(this.id)" onmouseleave="clicked2(this.id)" src="images/crown.jpeg" class="backstageimg" alt="embellished top"/>
+          <h2 class="backstage-headers">Slow and Steady</h>
+            <p class="second-mission">SLOW AND STEADY The future is bright for slow fashion as it encourages both retailers and consumers to make a more conscious choice.</p>
+        </div>
+      </div>
+
+      <div class="backstage-catalog">
+        <div class="backstage-image">
+          <img id="dressb" onmouseover="clicked(this.id)" onmouseleave="clicked2(this.id)" src="images/backstage.jpeg" class="backstageimg" alt="embellished skirt"/>
+          <h2 class="backstage-headers">Slow and Steady</h>
+            <p class="second-mission">SLOW AND STEADY The future is bright for slow fashion as it encourages both retailers and consumers to make a more conscious choice.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div class="trying">
+    <section id="testimonials">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="1200" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">My closet used to be so empty, but with Becca's help, I've found the wardrobe of my life.</h2>
+            <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">My closet used to be so empty, but with Becca's help, I've found the wardrobe of my life.</h2>
+            <img class="testimonial-img" src="images/man.jpeg" alt="man-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </div>
+
+  <!-- Press -->
+  <section id="press">
+    <img class="press-img" src="images/TechCrunch.png" alt="tech-crunch">
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider">
+    <img class="press-img" src="images/mashable.png" alt="mashable">
+  </section>
+
+  <!-- Call to action -->
+  <section id="cta">
+    <h2 class="call-to-action">Find the Outfit of Your Dreams Today.</h2>
+  </section>
+
+  <section id="cta-buttons">
+    <button type="button" class="btn btn-secondary btn-lg btn-dark"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-outline-light"><i class="fab fa-google-play"></i> Download</button>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>© Copyright Becca Designs</p>
+    <i class="social-icon fab fa-facebook"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+  </footer>
+
+  <script type="text/javascript" src="index.js"></script>
+  
+</body>
+</html>
